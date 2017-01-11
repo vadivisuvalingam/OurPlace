@@ -1,0 +1,2 @@
+obj\Debug\OUR_PLACE.exe
+obj\Debug\OUR_PLACE.pdb

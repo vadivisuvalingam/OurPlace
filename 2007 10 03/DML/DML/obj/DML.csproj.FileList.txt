@@ -1,0 +1,8 @@
+obj\Debug\DML.exe
+obj\Debug\DML.pdb
+bin\Debug\DML.exe
+bin\Debug\DML.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DML.Form1.resources
+obj\Debug\DML.Properties.Resources.resources
+obj\Debug\DML.csproj.GenerateResource.Cache

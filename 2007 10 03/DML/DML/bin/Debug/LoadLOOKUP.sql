@@ -1,0 +1,610 @@
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('SYSTEM_ROLE', 'ADMINISTRATOR', 'System Administrator');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('SYSTEM_ROLE', 'DATA_ENTRY', 'Enters Data, no modification allowed');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'School', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Self', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'C.A.S.', 'Children's Aid Society');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'O/W', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Peel S.S. Agency', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Non-Peel S.S. Agency', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Church', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Friend', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Parent', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Relative', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Hospital', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Mental Health Facility', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Open/Closed Custody', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Other Shelter', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('REFERRAL_SOURCE', 'Other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LOCATION', 'Our Place I', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LOCATION', 'Our Place II', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Mississauga', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Brampton', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Caledon', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Halton', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Toronto', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Other Ontario', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Out of Province', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('HOME_COMMUNITY', 'Other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Canada', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'U.S.A.', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Carribbean', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Central America', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Africa', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'U.K.', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Western Europe', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Eastern Europe', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Middle East', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'South Asia', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Australia/N.Z.', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Asia/Pacific', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Mexico', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Colombia', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Ecuador', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Guyana', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Jamaica', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Trinidad and Tobago', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Haiti', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Italy', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Portugal', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Greece', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Poland', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Russia', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Ukraine', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'India', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'China', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Pakistan', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Philippines', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Somalia', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Nigeria', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'South Africa', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Egypt', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Israel/Palestine', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Iraq', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ORIGIN_COUNTRY', 'Other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'natural parents', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'adopted parents', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'single parent', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'grandparent(s)', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'Mom & Partner', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'Dad & Partner', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'foster parents', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'group home', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('PRIOR_LIVE_WITH', 'other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LEARN_RESOURCE_ROOM', 'current resident', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LEARN_RESOURCE_ROOM', 'school', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LEARN_RESOURCE_ROOM', 'service provider', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LEARN_RESOURCE_ROOM', 'other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'OP2', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'OP1', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'own accommodation', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'friends', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'parents/guardian', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CANADA_STATUS', 'Canadian Born (Citizen)', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CANADA_STATUS', 'Native/Aboriginal', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CANADA_STATUS', 'Landed Immigrant (Permanent Resident)', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CANADA_STATUS', 'Convention Refugee', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CANADA_STATUS', 'Naturalized Canadian (Citizen not born in Canada)', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CANADA_STATUS', 'other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'English', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'French', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Punjabi', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Arabic', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Urdu', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Polish', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Chinese', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Italian', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Portuguese', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Tagalog', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'Spanish', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('MOTHER_TONGUE', 'other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'Grade 8', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'Grade 9', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'Grade 10', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'Grade 11', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'OSSD', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'some college or university', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LAST_GRADE_COMPLETED', 'college or university graduate', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('COMPUTER_SKILLS', 'I don't know anything about computers', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('COMPUTER_SKILLS', 'I just know the basics', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('COMPUTER_SKILLS', 'I'm pretty good with computers', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('COMPUTER_SKILLS', 'I know everything there is to know', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('READING_WRITING_SKILLS', 'I have difficulty reading and writing', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('READING_WRITING_SKILLS', 'I can read but I am not good at spelling', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('READING_WRITING_SKILLS', 'I can read and write pretty well', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('READING_WRITING_SKILLS', 'I am going to be the next Spelling Bee champion', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('SYSTEM_ROLE', 'NO_ROLE', 'No Role assigned to user.');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ABUSE_TYPE', 'Physical', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ABUSE_TYPE', 'Emotional', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ABUSE_TYPE', 'Sexual', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('ABUSE_TYPE', 'Other', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('LEARN_RESOURCE_ROOM', 'past resident', '');
+ 
+INSERT INTO LOOKUP
+           (LOO_TYPE, LOO_NAME, LOO_DESCRIPTION)
+VALUES
+           ('CURRENT_LIVING_SITUATION', 'other residential', '');
+ 
